@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #3498db;
+    background: linear-gradient(95deg,#130f40,#4834d4,#3498db);
 }
 
 .App{
@@ -17,7 +17,8 @@ body{
     left:20%;
     background-color: plum;
     border: none;
-    margin: 20px 30px;
+    margin: 20px 60px;
+    margin-top: 150px;
     border-radius: 7px;
 }
 
@@ -73,6 +74,7 @@ li{
     .App{
         
         width:350px;
-        margin:30px -60px;
+        margin:30px -45px;
+        margin-top: 150px;
     }
 }

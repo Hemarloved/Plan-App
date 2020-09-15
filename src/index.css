@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body{
+    background: #3498db;
+}
+
+.App{
+    position: relative ;
+    display: flex;
+    height:auto;
+    width:500px;
+    top:20%;
+    left:20%;
+    background-color: plum;
+    border: none;
+    margin: 20px 30px;
+    border-radius: 7px;
+}
+
+.content{
+    margin-top: 30px;
+
+}
+.content h2{
+    font-size: 18px;
+    margin: 30px;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid;
+    margin: 30px;
+    font-size: 16px;
+}
+.addbuton{
+    background-color: rebeccapurple;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+
+}
+.addbuton:hover{
+    
+}
+.delbuton{
+    margin-left:30px;
+    background-color: salmon;
+    height: 20px;
+    width: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+}
+li{
+    margin: 20px 10px;
+    font-size: 18px;
+    color: rgb(163, 7, 59);
+    
+}
+
+@media screen and (max-width:600px){
+    .App{
+        
+        width:350px;
+        margin:30px -60px;
+    }
+}
